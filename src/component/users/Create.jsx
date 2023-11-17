@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import Input from '../../shared/Input.jsx';
 import { userValidation } from './validation.js';
+import { Link } from 'react-router-dom';
 
 function Create() {
 
@@ -125,6 +126,17 @@ if (loader ){
                     <a href="#" className="nav-link align-middle px-0">
                       <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Home</span>
                     </a>
+                  </li>
+
+                  <li>
+                  <Link className="nav-item active" aria-current="page" to='/user/index'>Index</Link>
+
+                  </li>
+
+
+                  <li>
+                  <Link className="nav-item " aria-current="page" to='/user/create'>Craete</Link>
+
                   </li>
                   <li>
                     <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle">

@@ -76,6 +76,18 @@ if (loader ){
                       <i className="fs-4 bi-house" /> <span className="ms-1 d-none d-sm-inline">Home</span>
                     </a>
                   </li>
+
+
+                  <li>
+                  <Link className="nav-item active" aria-current="page" to='/user/index'>Index</Link>
+
+                  </li>
+
+
+                  <li>
+                  <Link className="nav-item " aria-current="page" to='/user/create'>Craete</Link>
+
+                  </li>
                   <li>
                     <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                       <i className="fs-4 bi-speedometer2" /> <span className="ms-1 d-none d-sm-inline">Dashboard</span> </a>
