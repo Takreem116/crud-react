@@ -4,11 +4,15 @@ import Index from './component/users/Index.jsx'
 import Create from './component/users/Create.jsx'
 import Details from './component/users/Details.jsx'
 import Edit from './component/users/Edit.jsx'
+import Navbar from './component/users/Navbar.jsx'
 
 function App() {
 
   return (
     <>
+
+<Navbar/>
+
 <Routes>
   <Route  path='/' element={<Index />} / >
   <Route path='/user/index' element={<Index/>} />
