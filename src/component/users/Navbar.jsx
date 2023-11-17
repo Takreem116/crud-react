@@ -15,11 +15,11 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link to={'/user/index'} className="nav-link active" aria-current="page" href="#">Index</Link>
+          <Link to='/user/index' className="nav-link active" aria-current="page" href="#">Index</Link>
         </li>
 
         <li className="nav-item">
-          <Link to={'/user/create'} className="nav-link active" aria-current="page" href="#">Create</Link>
+          <Link to='/user/create' className="nav-link active" aria-current="page" href="#">Create</Link>
         </li>
        
      
